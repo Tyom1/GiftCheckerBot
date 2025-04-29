@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# VSCode
+.vscode/
+
+# Package lock
+package-lock.json
+
+# Env files
+.env

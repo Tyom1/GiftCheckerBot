@@ -1,8 +1,8 @@
+require('dotenv').config();
 const axios = require('axios');
 
-// Replace this with your actual YoAI token
-const TOKEN = '01966be7-6e71-7a36-b6f4-efb457a2f9da:77713d3cf39ab180253cf140144de75baef2db6c5aa4a239a892c3daef0532f1';
-const POLL_INTERVAL = 10_000; // 10 seconds
+const TOKEN = process.env.YOAI_TOKEN;
+const POLL_INTERVAL = Number(process.env.POLL_INTERVAL) || 10_000; // fallback
 
 async function fetchAndReply() {
   try {
