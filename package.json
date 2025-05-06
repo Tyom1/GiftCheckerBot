@@ -1,5 +1,5 @@
 {
-  "name": "testbot",
+  "name": "giftcheckerbot",
   "version": "1.0.0",
   "main": "giftCheckerBot.js",
   "scripts": {
@@ -15,9 +15,9 @@
     "body-parser": "^2.2.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "giftcheckerbot": "file:",
+    "giftCheckerBot": "file:",
     "node-fetch": "^3.3.2",
-    "nodemon": "^3.1.9",
-    "sendmessage": "file:",
-    "giftCheckerBot": "file:"
+    "nodemon": "^3.1.9"
   }
 }
