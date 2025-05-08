@@ -1,23 +1,21 @@
 {
   "name": "giftcheckerbot",
   "version": "1.0.0",
-  "main": "giftCheckerBot.js",
+  "description": "A YoAI bot for checking channel follows and sending gifts",
+  "main": "bot.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon giftCheckerBot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon bot.js",
+    "dev": "node bot.js"
   },
-  "type": "commonjs",
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "",
   "dependencies": {
     "axios": "^1.8.4",
-    "body-parser": "^2.2.0",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "giftcheckerbot": "file:",
-    "giftCheckerBot": "file:",
-    "node-fetch": "^3.3.2",
+    "giftcheckerbot": "file:"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
